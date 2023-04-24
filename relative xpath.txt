@@ -1,0 +1,74 @@
+RELATIVE XPATH:
+
+Type 1:
+ syntax : //tagName[@attributeName = 'attributeValue']
+
+	eg1: //div[@id='a-popover-root']
+
+	eg2: //a[@id='skiplink']
+
+	eg3: //html[@lang='en-in']
+
+	eg4: //script[@type='text/javascript']
+
+	eg5: //meta[@name='description']
+
+type 2:
+ syntax : //tagName[text() = 'textValue']
+
+	eg1: //title[text()='Sign up for Facebook | Facebook']
+
+	eg2: //script[text()='__DEV__=0;']
+
+	eg3: //script[text()='__DEV__=0;']
+
+	eg4: //title[text()='smallpdf - Google Search']
+
+	eg5: //h1[text()='We make PDF easy.']
+
+
+type 3:
+ syntax : //tagName[contains(text() , 'textValue')]
+
+	eg1: //p[contains(text() , 'smarter')]
+
+	eg2: //h2[contains(text() , 'Popular')]
+
+	eg3: //p[contains(text() , 'convert')]
+
+	eg4: //div[contains(text() , 'PDF to Word')]
+
+	eg5: //h2[contains(text() , 'The best web app')]
+
+type 4:
+ syntax : //tagName[contains(@attributeName,'attributeValue)]
+
+	eg1: //h2[contains(@class,'sc-17y9jfw-3 grmoaB')]
+
+	eg2: //div[contains(@id,'app')]
+
+	eg3: //div[contains(@class,'sc-1sjqft3-3 gtsuTu')]
+
+	eg4: //ol[contains(@class,'sc-1rq1wxh-0 jRAttU')]
+
+	eg5: //label[contains(@class,'sc-8s01yt-0 deyfvp')]
+
+type 5:
+ syntax : (//tagName[@attributeName = 'attributeValue'])[index]
+
+
+	eg1: (//script[@id='binary-transparency-manifest'])[2]
+
+	eg2: (//meta[@charset='utf-8'])[0]
+
+	eg3: (//meta[@name='google'])[1]
+
+	eg4: (//body[@class='web'])[2]
+
+	eg5: (//div[@class='_1RAKT'])[3]
+
+
+
+
+
+
